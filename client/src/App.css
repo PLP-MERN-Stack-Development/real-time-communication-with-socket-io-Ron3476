@@ -1,0 +1,11 @@
+.app { display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial; }
+.login { text-align: center; }
+.login input { padding: 0.5rem; margin: 0.5rem; }
+.login button { padding: 0.5rem 1rem; }
+.chat-container { display: flex; width: 80%; height: 80%; border: 1px solid #ccc; }
+.users-list { width: 20%; border-right: 1px solid #ccc; padding: 1rem; }
+.chat-box { width: 80%; padding: 1rem; display: flex; flex-direction: column; }
+.messages { flex: 1; overflow-y: auto; margin-bottom: 0.5rem; }
+.typing { font-style: italic; font-size: 0.9rem; color: gray; }
+.chat-box input { padding: 0.5rem; margin-bottom: 0.5rem; }
+.chat-box button { padding: 0.5rem; }
